@@ -1,21 +1,31 @@
+import Header from './Header.js';
 
 function App() {
+  let x = 1;
+  let y = Math.ceil(Math.random()*1000);
+
   return (
     <div>
 
-      {/* <div className="header">
+      {/* header moved to Header.js
+       <div className="header">
         Phone Directory
-      </div>
+      </div> */}
+      
+      <Header></Header>{/*Header as defined in Header.js*/}
+
       <button>Add</button>
       <div>
         <span>Name </span><br />
         <span>Phone </span>
-      </div> */}
+      </div>
 
-      <label htmlF  or = 'name'>Name </label>
-      <input id = 'name' type = 'text' placeholder = 'Type Here' defaultValue = "Siddharth"></input>
+      {/* <label htmlFor = 'name'>Name </label>
+      <input id = 'name' type = 'text' placeholder = 'Type Here' defaultValue = {x+y+"s"}></input> */}
+
 
     </div>
+
   );
 }
 
