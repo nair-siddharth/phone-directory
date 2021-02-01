@@ -1,0 +1,71 @@
+#addBtn{
+    background-color: rgb(92, 190, 92);
+    color: white;
+    padding: 10px;
+    font-size: medium;
+    margin: 20px;
+    width: 80px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+#addBtn:hover{
+    background-color: rgb(79, 179, 79);
+}
+
+
+#delBtn{
+    background-color: rgb(243, 105, 86);
+    color: white;
+    padding: 5px;
+    font-size: small;
+    margin: 02px;
+    width: 80px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+#delBtn:hover{
+    background-color: rgb(179, 79, 79);
+}
+
+.infoBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin : 10px;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.data{
+    text-align: left;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: medium;
+    color: grey;
+}
+
+.info{
+    text-align: left;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: medium;
+    text-transform: uppercase;
+    color: grey;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 10vh;
+    border: 1px solid;
+    /* height: 80vh; */
+    height: auto;
+    width: 40vw;
+}
