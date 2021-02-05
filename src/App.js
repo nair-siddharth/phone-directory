@@ -29,6 +29,11 @@ let subscribers = [
     phone:Math.ceil(Math.random()*10000000000)
   }
 ];
+
+function deleteHandler(){
+  alert('test');
+}
+
 function App() {
   let x = 1;
   let y = Math.ceil(Math.random()*1000);
@@ -61,7 +66,7 @@ function App() {
           return <div key = {sub.id} className = 'infoBox'>
             <span className = 'data'>{sub.name}</span>
             <span className = 'data'>{sub.phone}</span>
-            <button id = 'delBtn'>Delete</button>
+            <button id = 'delBtn' onClick = {deleteHandler}>Delete</button>
           </div>
         })
       }
