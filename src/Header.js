@@ -19,7 +19,7 @@ class Header extends Component{
         return (
             /*style = {HeaderStyle}*/
             <div className="header" >
-            <h1>Phone Directory</h1>
+            <h1>{this.props.heading}</h1>
           </div>
         );  
     }

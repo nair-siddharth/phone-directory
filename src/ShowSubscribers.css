@@ -1,4 +1,4 @@
-#addBtn{
+.addBtn{
     background-color: rgb(92, 190, 92);
     color: white;
     padding: 10px;
@@ -9,8 +9,8 @@
     border: 0;
 }
 
-#addBtn:hover{
-    background-color: rgb(79, 179, 79);
+.addBtn:hover{
+    background-color: rgb(79, 102, 179);
 }
 
 
@@ -28,6 +28,8 @@
 #delBtn:hover{
     background-color: rgb(179, 79, 79);
 }
+
+
 
 .infoBox{
     display: flex;
@@ -61,11 +63,11 @@
     display:flex;
     flex-direction: column;
     background-color: white;
-    margin: auto;
-    margin-bottom: 50px;
+    /* margin: auto;
+    margin-bottom: 50px; 
     margin-top: 10vh;
     border: 1px solid;
-    /* height: 80vh; */
+    height: 80vh;
     height: auto;
-    width: 40vw;
+    width: 80vw; */
 }

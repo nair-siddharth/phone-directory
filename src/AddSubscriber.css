@@ -1,0 +1,45 @@
+.subForm{
+    display: inline;
+    flex-direction: column;
+}
+
+.formInputs-sub{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin: 10px;
+    padding-bottom: 20px;
+    align-content: stretch;
+}
+
+label{
+    width: 20%;
+    padding: 10px;
+    align-content: left;
+    font-weight: bold;
+}
+
+input{
+    width: 40%;
+    padding: 10px;
+    align-content: right;
+}
+
+.subInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.subInfoHdr{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.subInfoText{
+    color: grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
