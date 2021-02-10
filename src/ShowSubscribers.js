@@ -39,6 +39,10 @@ function deleteHandler(argText){
 class ShowSubscribers extends Component{
 
 
+  onDeletedClick = (subscriberID) => {
+    this.props.deleteSubscriberHandler(subscriberID);
+  }
+
   render() {
     let x = 1;
   let y = Math.ceil(Math.random()*1000);
@@ -71,7 +75,8 @@ class ShowSubscribers extends Component{
           return <div key = {sub.id} className = 'infoBox'>
             <span className = 'data'>{sub.name}</span>
             <span className = 'data'>{sub.phone}</span>
-            <button id = 'delBtn' onClick = {() => deleteHandler('Delete Clicked')}>Delete</button>
+            {/*<button id = 'delBtn' onClick = {() => deleteHandler('Delete Clicked')}>Delete</button>*/}
+            <button id = 'delBtn' onClick = {this.onDeletedClick.bind(this,sub.id)}>Delete</button>
           </div>
         })
       }
